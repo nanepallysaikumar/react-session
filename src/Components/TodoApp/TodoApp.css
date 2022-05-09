@@ -1,0 +1,38 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: tomato;
+}
+
+form {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+button {
+    background-color: brown;
+    border-radius: 3px;
+    width: 15%;
+    padding: 7px;
+    font-size: 1em;
+    color: burlywood;
+    height: 40px;
+}
+
+.todo-input-box {
+    margin-right: 8px;
+    padding: 5px;
+    border-radius: 3px;
+    width: 50%;
+    height: 23px;
+}
+
+.display-section {
+    margin-left: 16%;
+}

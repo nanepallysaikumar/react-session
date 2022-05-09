@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    background-color: green;
+    margin:  0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+.link-style {
+    display: block;
+    color: white;
+    text-decoration:  none;
+    text-align: center;
+    padding: 15px 17px;
+}
+
+li .link-style:hover:not(.active) {
+    background-color: green;
+}
+
+.active {
+background-color: black;
+}
